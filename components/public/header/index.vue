@@ -14,16 +14,16 @@
 </template>
 
 <script>
-import topBar from "./topbar";
-import searchBar from "./searchbar";
+import topBar from './topbar'
+import searchBar from './searchbar'
 export default {
   components: {
     topBar,
     searchBar
   }
-};
+}
 </script>
 
 <style lang="scss">
-@import "@/assets/css/public/header/index.scss";
+@import '@/assets/css/public/layout.scss';
 </style>
